@@ -1,0 +1,85 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+nav{
+    background-color: #e9e8e6;
+    padding: 20px;
+    transition: 0.3s;
+}
+ul,li{
+    display: inline;
+}
+ul{
+    margin-left: 264px;
+}
+nav ul li a{
+    margin-left: 44px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200px;
+    color: gray;
+}
+.brand-logo{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    color:#222222;
+    font-family: "Raleway", sans-serif;
+}
+nav li a:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(0, 128, 105);
+}
+.icons{
+    letter-spacing: 7px;
+}
+body{
+    background-image: url(./images/kelly.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.main .d2{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .d2 a{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #34b7a7;
+    text-decoration: none;
+}
+.d2 p{
+    color: #6f6f6f;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 0px;
+    font-size: 22px;
+}
+.d2 h1{
+    font-size: 28px;
+    line-height: 36px;
+    
+}
+.main .d2 a:hover{
+    background-color: blue;
+}
+
